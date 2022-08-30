@@ -15,7 +15,14 @@
         </a>
         <button onclick="showAlert()" id="alert">?</button> <!-- 클릭시 alert생성 -->
     </header>
-    
+    <div id="waffles-container">
+        <div id="waffles"></div> <!-- 비어있는 div로 놓고 추가버튼 클릭시 innerhtml에 삽입하도록 설정 -->
+    </div>
+    <div id="add-waffle">
+        <div onclick="focusChange()">메뉴 이름 : </div> <!-- 클릭시 focus가 input으로 -->
+        <input id="add-waffle-input" placeholder="맛있는와플"/>
+        <button onclick="addWaffle()">추가</button> <!-- 클릭시 메뉴 추가 -->
+    </div>
 </body>
 <script src="project0.js"></script>
 </html>

@@ -35,3 +35,41 @@ h2 { /* header 위쪽에 마진이 생겨 html과 body를 아래와 같이 설�
     background-color: #d3d3d3;
     border: 1px solid black;
 }
+
+#waffles {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px dotted black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#waffles-container {
+    display: flex;
+    justify-content: center;
+}
+
+.waffle { /* 위쪽에만 border를 부여하여 메뉴 사이사이에 실선이 생기도록 설정 */
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+#add-waffle { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
