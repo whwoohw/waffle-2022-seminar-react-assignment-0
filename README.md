@@ -1,1 +1,2 @@
-# waffle-2022-seminar-react-assignment-0
+# assignment0
+# 와플이 잘 추가되도록 하였습니다.
