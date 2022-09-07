@@ -24,7 +24,7 @@ header {
     color: black;
 }
 
-h2 { /* header 위쪽에 마진이 생겨 html과 body를 아래와 같이 설정 */
+h2 { /* h2 위쪽에 마진이 생겨 html과 body를 아래와 같이 설정 */
     margin: 0%;
 }
 
@@ -64,6 +64,10 @@ h2 { /* header 위쪽에 마진이 생겨 html과 body를 아래와 같이 설�
     justify-content: center;
     align-items: center;
     border-top: 1px solid black;
+}
+
+.waffle:last-child {
+    border-bottom: 1px solid black;
 }
 
 #add-waffle { 
